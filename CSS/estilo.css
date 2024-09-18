@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container_{  
+    background-image: url(../Resources/fondo\ 4.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr 1.5fr 0.5fr 1fr 0.5fr 0.5fr;
+    gap: 0px 0px;
+    grid-template-areas: 
+    "header header header header"
+    "carrusel carrusel carrusel carrusel"
+    "qs qs foto foto"
+    "qh qh qh qh"
+    "web redes publicidad asesorias"
+    "frase frase frase frase"
+    "footer footer footer footer";
+    height: 1650px;
+    width: auto;
+    text-align: center;
+}
+li{
+    font-size: 1.5rem;
+}
+.header { 
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    grid-area: header;
+}  
+.carrusel { 
+    grid-area: carrusel;
+}  
+.qs{ 
+    grid-area: qs;
+}  
+.foto { 
+    grid-area: foto;
+}  
+.qh { 
+    grid-area: qh;
+}  
+.web { 
+    grid-area: web;
+}  
+.redes { 
+    grid-area: redes;
+}    
+.asesorias { 
+    grid-area: asesorias;
+}  
+.publicidad { 
+    grid-area: publicidad;
+}  
+.frase {
+    grid-area: frase;
+}  
+.footer { 
+    grid-area: footer;
+}
+.logo{
+    height: 50px;
+}
+.carrusel--imagenes{
+    height: 400px;
+}
+p{
+    font-size: 1.5rem;
+}
+.video--main{
+    height: 400px;
+}
+.qh--imagenes{
+    height: 400px;
+    width: 400px;
+}
+.footer--a{
+    font-size: 2rem;
+    padding: 20px;
+}
