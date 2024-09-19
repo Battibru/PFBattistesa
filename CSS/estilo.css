@@ -3,9 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container_{  
+body{
     background-image: url(../Resources/fondo\ 4.jpg);
     background-size: cover;
+}
+.container_{  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 1.5fr 1.5fr 0.5fr 1fr 0.5fr 0.5fr;
@@ -32,6 +34,7 @@ li{
     grid-area: header;
 }  
 .carrusel { 
+    margin-top: 76px;
     grid-area: carrusel;
 }  
 .qs{ 
@@ -56,28 +59,40 @@ li{
     grid-area: publicidad;
 }  
 .frase {
+    font-size: 3rem;
     grid-area: frase;
 }  
 .footer { 
     grid-area: footer;
+    margin: 20px;
+    margin-bottom: 20px;
 }
 .logo{
     height: 50px;
 }
 .carrusel--imagenes{
-    height: 400px;
+    height: 450px;
 }
 p{
     font-size: 1.5rem;
 }
 .video--main{
-    height: 400px;
-}
+width: 40vw;}
 .qh--imagenes{
     height: 400px;
     width: 400px;
 }
 .footer--a{
     font-size: 2rem;
-    padding: 20px;
+}
+.contact--form{
+    font-size: 2rem;
+    text-align: center;
+    width: 50vw;
+    margin-left: 25vw;
+}
+.contact--footer{
+    text-align: center;
+    margin: 20px;
+    margin-top: 450px;
 }
