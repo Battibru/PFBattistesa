@@ -4,111 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yendo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/estilo.css">
 </head>
-<body class="container_">
-    <header class="header">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img class="logo" src="./Resources/logo.jpg" alt="logo"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="logo" src="./Resources/logo.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Pages/contacto.html">Contacto</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Servicios
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Web</a></li>
-                      <li><a class="dropdown-item" href="#">Redes</a></li>
-                      <li><a class="dropdown-item" href="#">Publicidad</a></li>
-                      <li><a class="dropdown-item" href="#">Asesorias</a></li>
-                    </ul>
-                  </li>
-                </ul>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav nav-links">
+                    <a class="nav-link" aria-current="page" href="./Pages/desarrollo.html">Desarrollo</a>
+                    <a class="nav-link" aria-current="page" href="./Pages/publicidad.html">Publicidad</a>
+                    <a class="nav-link" aria-current="page" href="./Pages/redes.html">Redes</a>
+                    <a class="nav-link" aria-current="page" href="./Pages/contacto.html">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+   </header>
+   <main class="main container-fluid d-flex align-items-center justify-content-center row">
+      <div class="text-center col-12">
+        <h2 class="fw-bold">Despega tu negocio con YENDO</h2>
+        <h3 class="charm">Somos dos hermanos apasionados por ayudar a <br> emprendedores y empresas a alcanzar nuevas alturas</h3>
+        <img src="./Resources/AVION INDEX.png" class="index-main-img" alt="">
+      </div>
+      <div class="text-center col-12">
+        <h2 class="fw-bold">¿Quienes Somos?</h2>
+        <h3 class="charm">
+        En YENDO, combinamos la experiencia en marketing digital con la <br> cercanía de una empresa familiar. Fundada por dos hermanos,<br> trabajamos
+        en un ambiente acogedor para llevar tu negocio al siguiente <br> nivel. Nuestro objetivo es ayudarte a despegar, crecer y ascender en el <br> mundo digital
+        </h3>
+        <img src="./Resources/HERMANOS INDEX.png" class="index-sec-img" alt="">
+      </div>
+      <div class="text-center col-12">
+        <h2 class="fw-bold">OPCIONES PARA DESPEGAR</h2>
+        <h3 class="charm">
+          Explora nuestras soluciones diseñadas para hacer crecer tu negocio. <br> Haz clic en cada opción para saber más
+        </h3>
+        <div class="container my-5">
+          <div class="row text-center">
+              <div class="col-md-4 mb-4 index-opt">
+                  <img src="./Resources/COHETE INDEX.png" alt="Cohete espacial" class="img-fluid index-opt-img">
+                  <a href="./Pages/pagina1.html" class="index-btn btn btn-dark d-block mt-2">Desarrollo Web</a>
               </div>
-            </div>
-          </nav>   
-         </header>
-    <main class="carrusel">
-      <div id="carouselExampleDark" class="carousel carousel-dark slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img class="carrusel--imagenes" src="./Resources/Video.index (1080 x 1080 px).png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-            </div>
+              <div class="col-md-4 mb-4 index-opt">
+                  <img src="./Resources/MEGAFONO INDEX.png" alt="Megafono" class="img-fluid index-opt-img">
+                  <a href="./Pages/pagina2.html" class="index-btn btn btn-dark d-block mt-2">Publicidad Paga</a>
+              </div>
+              <div class="col-md-4 mb-4 index-opt">
+                  <img src="./Resources/MANOS REDES INDEX.png" alt="Manos sosteniendo un celular" class="img-fluid index-opt-img">
+                  <a href="./Pages/pagina3.html" class="index-btn btn btn-dark d-block mt-2">Gestion de Redes</a>
+              </div>
           </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img class="carrusel--imagenes" src="./Resources/fotoQS.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="carrusel--imagenes" src="./Resources/fotocarrusel.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-      </main>
-    <div class="qs">
-      <h2>¿Quienes Somos?</h2>
-      <p>
-        En YENDO, somos más que una agencia de marketing digital: somos dos hermanos apasionados por lo que hacemos y comprometidos en brindar soluciones efectivas y personalizadas para cada cliente. Con más de [añadir años de experiencia] en la industria, hemos aprendido que cada negocio es único, por lo que nuestra propuesta siempre se adapta a las necesidades y objetivos específicos de cada proyecto.
-        Formamos un equipo compacto pero ágil, lo que nos permite ofrecer un servicio cercano y dedicado. Nos especializamos en desarrollar estrategias integrales que abarcan desde la gestión de redes sociales, publicidad paga, hasta posicionamiento SEO y desarrollo web. Nuestra meta es ayudar a nuestros clientes a destacar en un mercado digital cada vez más competitivo, y lo hacemos con dedicación, creatividad y resultados medibles.
-      </p>
-    </div>
-    <div class="foto">
-      <video class="video--main" autoplay loop muted playsinline src="./Resources/Video.index (1080 x 1080 px).mp4"></video>
-    </div>
-    <div class="qh">
-<h2>¿Que hacemos?</h2>
-    </div>
-    <div class="web">
-      <a href="#"><img class="qh--imagenes" src="./Resources/web.jpg" alt=""></a>
-    </div>
-    <div class="redes">
-      <a href="#"><img class="qh--imagenes" src="./Resources/redes.jpg" alt=""></a>
-    </div>
-    <div class="publicidad">
-      <a href="#"><img class="qh--imagenes" src="./Resources/publicidad.jpg" alt=""></a>
-    </div>
-    <div class="asesorias">
-      <a href="#"><img class="qh--imagenes" src="./Resources/asesorias.jpg" alt=""></a>
-    </div>
-    <div class="frase">
-      <h2 class="frase">en YENDO impulsamos tu marca con estrategias que te llevan directoal éxito</h2>
-    </div>
-    <footer class="footer">
-      <div class="btn-group footer">
-        <a href="#" class="btn btn-primary footer--a">Instagram</a>
-        <a href="#" class="btn btn-primary footer--a">Facebook</a>
-        <a href="#" class="btn btn-primary footer--a">WhatsApp</a>
-        <a href="#" class="btn btn-primary footer--a">Email</a>
+      
       </div>
-    </footer>                
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </main>
+    <footer class="py-5">
+      <div class="container text-center">
+          <h4 class="mb-4">Empresas que confían en nosotros</h4>
+          <div class="row mb-4">
+              <div class="col-md-4 mb-3">
+                  <img src="./Resources/LOVELY EXPRESS.png" alt="Lovely express" class="img-fluid logo-empresa">
+              </div>
+              <div class="col-md-4 mb-3">
+                  <img src="./Resources/RESIDENCIA DEL SOL.png" alt="Residencia del sol" class="img-fluid logo-empresa">
+              </div>
+              <div class="col-md-4 mb-3">
+                  <img src="./Resources/DRAGO.png" alt="Sifones Drago" class="img-fluid logo-empresa">
+              </div>
+              <div class="col-md-4 mb-3">
+                  <img src="./Resources/ASISTENCIA DEL SOL.png" alt="Asistencia del Sol" class="img-fluid logo-empresa">
+              </div>
+              <div class="col-md-4 mb-3">
+                  <img src="./Resources/MIAMI BEST TOURS.png" alt="Miami Best Tours" class="img-fluid logo-empresa">
+              </div>
+              <div class="col-md-4 mb-3">
+                  <img src="./Resources/VIRAL.png" alt="Viral" class="img-fluid logo-empresa">
+              </div>
+          </div>
+          <div class="social-icons mt-4">
+              <a href="https://www.facebook.com" target="_blank" class="mx-2">
+                  <img src="./Resources/FACEBOOK.png" alt="Facebook" class="social-icon">
+              </a>
+              <a href="https://www.instagram.com" target="_blank" class="mx-2">
+                  <img src="./Resources/INSTAGRAM.png" alt="Instagram" class="social-icon">
+              </a>
+              <a href="https://www.twitter.com" target="_blank" class="mx-2">
+                  <img src="./Resources/X.png" alt="Twitter" class="social-icon">
+              </a>
+          </div>
+      </div>
+  </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

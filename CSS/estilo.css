@@ -4,95 +4,63 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../Resources/fondo\ 4.jpg);
+    background-color: lightblue;
+    background-image:url(../Resources/fondo\ 2.jpg);
     background-size: cover;
-}
-.container_{  
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1.5fr 1.5fr 0.5fr 1fr 0.5fr 0.5fr;
-    gap: 0px 0px;
-    grid-template-areas: 
-    "header header header header"
-    "carrusel carrusel carrusel carrusel"
-    "qs qs foto foto"
-    "qh qh qh qh"
-    "web redes publicidad asesorias"
-    "frase frase frase frase"
-    "footer footer footer footer";
-    height: 1650px;
-    width: auto;
-    text-align: center;
-}
-li{
-    font-size: 1.5rem;
-}
-.header { 
-    z-index: 1;
-    position: fixed;
-    width: 100%;
-    grid-area: header;
-}  
-.carrusel { 
-    margin-top: 76px;
-    grid-area: carrusel;
-}  
-.qs{ 
-    grid-area: qs;
-}  
-.foto { 
-    grid-area: foto;
-}  
-.qh { 
-    grid-area: qh;
-}  
-.web { 
-    grid-area: web;
-}  
-.redes { 
-    grid-area: redes;
-}    
-.asesorias { 
-    grid-area: asesorias;
-}  
-.publicidad { 
-    grid-area: publicidad;
-}  
-.frase {
-    font-size: 3rem;
-    grid-area: frase;
-}  
-.footer { 
-    grid-area: footer;
-    margin: 20px;
-    margin-bottom: 20px;
 }
 .logo{
     height: 50px;
 }
-.carrusel--imagenes{
-    height: 450px;
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
-p{
-    font-size: 1.5rem;
-}
-.video--main{
-width: 40vw;}
-.qh--imagenes{
-    height: 400px;
-    width: 400px;
-}
-.footer--a{
-    font-size: 2rem;
-}
-.contact--form{
-    font-size: 2rem;
+.nav-links .nav-link{
+    flex: 1;
     text-align: center;
-    width: 50vw;
-    margin-left: 25vw;
+    font-size: 22px;
+    font-weight: bold;
 }
-.contact--footer{
-    text-align: center;
-    margin: 20px;
-    margin-top: 450px;
+.main{
+    padding: 20px;
+}
+.charm{
+    font-family:'charm', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+.index-main-img{
+    height: 600px;
+}
+.index-sec-img{
+    height: 300px;
+    float: right;
+}
+.index-opt-img{
+height: 300px;
+}
+.index-btn{
+    font-size: 2rem;
+    display: inline-block;
+    width: auto;
+}
+.index-opt{
+    padding: 20px;
+}
+.logo-empresa {
+    max-width: 200px;
+    height: auto;
+    margin: 0;
+}
+.social-icon {
+    width: 40px;
+    height: auto;
+    margin: 30px;
+    transition: transform 0.3s;
+}
+.social-icon:hover {
+    transform: scale(1.2);
 }
